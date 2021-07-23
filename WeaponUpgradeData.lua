@@ -7,7 +7,7 @@
 	SwordWeapon =
 	{
 		{
-			Costs = { 1, 1, 1, 1, 1, },
+			Costs = { 0, 0, 0, 0, 0, },
 			MaxUpgradeLevel = 5,
 			UpgradeUnequippedId = "SwordWeapon_Unequipped",
 			StartsUnlocked = true,
@@ -38,10 +38,6 @@
 		{
 			Costs = { 3, 3, 3, 3, 3 },
 			MaxUpgradeLevel = 5,
-			GameStateRequirements =
-			{
-				RequiredTextLines = { "NyxRevealsArthurAspect01" },
-			},
 			TraitName = "SwordConsecrationTrait",
 			EquippedKitAnimation = "WeaponSwordAlt03FloatingIdleOff",
 			UnequippedKitAnimation = "WeaponSwordAlt03FloatingIdle",
@@ -53,7 +49,7 @@
 	SpearWeapon =
 	{
 		{
-			Costs = { 1, 1, 1, 1, 1 },
+			Costs = { 0, 0, 0, 0, 0, },
 			MaxUpgradeLevel = 5,
 			UpgradeUnequippedId = "SpearWeapon_Unequipped",
 			StartsUnlocked = true,
@@ -87,10 +83,6 @@
 			Costs = { 3, 3, 3, 3, 3 },
 			TraitName = "SpearSpinTravel",
 			MaxUpgradeLevel = 5,
-			GameStateRequirements =
-			{
-				RequiredTextLines = { "AchillesRevealsGuanYuAspect01" },
-			},
 			UnequipFunctionName = "RemoveSpearGuanYu",
 			-- To be replaced
 			EquippedKitAnimation = "WeaponSpearAlt03FloatingIdleOff",
@@ -104,7 +96,7 @@
 	GunWeapon =
 	{
 		{
-			Costs = { 1, 1, 1, 1, 1 },
+			Costs = { 0, 0, 0, 0, 0, },
 			MaxUpgradeLevel = 5,
 			UpgradeUnequippedId = "GunWeapon_Unequipped",
 			StartsUnlocked = true,
@@ -135,10 +127,6 @@
 		{
 			Costs = { 3, 3, 3, 3, 3 },
 			MaxUpgradeLevel = 5,
-			GameStateRequirements =
-			{
-				RequiredTextLines = { "ZeusRevealsLuciferAspect01" },
-			},
 			TraitName = "GunLoadedGrenadeTrait",
 			EquippedKitAnimation = "WeaponGunAlt03FloatingIdleOff",
 			UnequippedKitAnimation = "WeaponGunAlt03FloatingIdle",
@@ -151,7 +139,7 @@
 	BowWeapon =
 	{
 		{
-			Costs = { 1, 1, 1, 1, 1 },
+			Costs = { 0, 0, 0, 0, 0, },
 			MaxUpgradeLevel = 5,
 			UpgradeUnequippedId = "BowWeapon_Unequipped",
 			StartsUnlocked = true,
@@ -183,10 +171,6 @@
 		{
 			Costs = { 3, 3, 3, 3, 3 },
 			MaxUpgradeLevel = 5,
-			GameStateRequirements =
-			{
-				RequiredTextLines = { "ArtemisRevealsRamaAspect01" },
-			},
 			TraitName = "BowBondTrait",
 			EquippedKitAnimation = "WeaponBowAlt03FloatingIdleOff",
 			UnequippedKitAnimation = "WeaponBowAlt03FloatingIdle",
@@ -198,7 +182,7 @@
 	ShieldWeapon =
 	{
 		{
-			Costs = { 1, 1, 1, 1, 1 },
+			Costs = { 0, 0, 0, 0, 0, },
 			MaxUpgradeLevel = 5,
 			UpgradeUnequippedId = "ShieldWeapon_Unequipped",
 			StartsUnlocked = true,
@@ -228,10 +212,6 @@
 		{
 			Costs = { 3, 3, 3, 3, 3 },
 			MaxUpgradeLevel = 5,
-			GameStateRequirements =
-			{
-				RequiredTextLines = { "ChaosRevealsBeowulfAspect01" },
-			},
 			UnequipFunctionName = "RemoveSelfAmmoLoad",
 			TraitName = "ShieldLoadAmmoTrait",
 			EquippedKitAnimation = "WeaponShieldAlt03FloatingIdleOff",
@@ -246,7 +226,7 @@
 	FistWeapon =
 	{
 		{
-			Costs = { 1, 1, 1, 1, 1, },
+			Costs = { 0, 0, 0, 0, 0, },
 			MaxUpgradeLevel = 5,
 			UpgradeUnequippedId = "FistWeapon_Unequipped",
 			StartsUnlocked = true,
@@ -279,10 +259,6 @@
 		{
 			Costs = { 3, 3, 3, 3, 3 },
 			MaxUpgradeLevel = 5,
-			GameStateRequirements =
-			{
-				RequiredTextLines = { "MinotaurRevealsGilgameshAspect01" },
-			},
 			TraitName = "FistDetonateTrait",
 			EquippedKitAnimation = "WeaponFistsAlt03FloatingIdleOff",
 			UnequippedKitAnimation = "WeaponFistsAlt03FloatingIdle",

@@ -3,7 +3,7 @@ HeroData =
 	DefaultHero =
 	{
 		DefaultWeapon = "SwordWeapon",
-		MaxHealth = 50,
+		MaxHealth = 500,
 		MaxHealthMultiplier = 1,
 		LastStands = {},
 		UnusedWeaponThreshold = 3,
@@ -152,16 +152,16 @@ HeroData =
 			},
 			ForceCommon = false,
 			RareChance = 0.10,
-			EpicChance = 0.05,
-			LegendaryChance = 0.12,
+			EpicChance = 0.25,
+			LegendaryChance = 0.25,
 			ReplaceChance = 0.1,
 		},
 		HermesData =
 		{
 			ForceCommon = false,
-			RareChance = 0.06,
-			EpicChance = 0.03,
-			LegendaryChance = 0.01,
+			RareChance = 0.01,
+			EpicChance = 0.50,
+			LegendaryChance = 0.50,
 		},
 		StackData =
 		{
