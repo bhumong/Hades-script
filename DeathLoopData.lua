@@ -2214,6 +2214,7 @@ DeathLoopData =
  								{ Code = "de", Value = -65 },
  								{ Code = "pl", Value = -40 },
  								{ Code = "pt-BR", Value = -50 },
+								{ Code = "it", Value = -50 },
  								{ Code = "ko", Value = -70 },
  								{ Code = "ja", Value = -40 },
  							}),

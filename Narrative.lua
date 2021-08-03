@@ -617,12 +617,16 @@ function DisplayTextLine( screen, source, line, parentLine )
 
 		local localizedTextOffsetY = 0.0
 		local localizedWidthOverride = 755
+		local localizedTextOffsetX = 0
 
 		local lang = GetLanguage({})
 		if lang == "zh-CN" then
 			localizedTextOffsetY = -15
 		elseif lang == "ko" then
 			localizedTextOffsetY = -15
+			if #GetDisplayName({ Text = text }) >= 19 then
+				localizedTextOffsetX = -30
+			end
 		elseif lang == "pl" then
 			localizedTextOffsetY = -5
 		elseif lang == "ja" and #GetDisplayName({ Text = text }) >= 23 then
@@ -634,7 +638,7 @@ function DisplayTextLine( screen, source, line, parentLine )
 			Id = choiceBackground,
 			Text = text,
 			Width = localizedWidthOverride,
-			OffsetX = -400,
+			OffsetX = -400 + localizedTextOffsetX,
 			OffsetY = -133 + localizedTextOffsetY,
 			Font = "AlegreyaSansExtraBold",
 			FontSize = 28,

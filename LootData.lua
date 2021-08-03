@@ -736,7 +736,8 @@ LootData =
 			{
 				PlayOnce = true,
 				PreEventFunctionName = "BoonInteractPresentation", PreEventFunctionArgs = { PickupWait = 1.0, },
-				RequiredTextLines = { "DemeterAboutRumors01", "ZeusGift06" },
+				RequiredTextLines = { "DemeterAboutRumors01" },
+				RequiredAnyTextLines = { "ZeusGift06", "ZeusGift06_B" },
 				RequiredMinAnyTextLines = { TextLines = { "PoseidonAboutZeus01", "AthenaAboutZeus01", "AphroditeAboutZeus01", "AresAboutZeus01", "ArtemisAboutZeus01", "DionysusAboutZeus01", "DemeterAboutZeus01", "DemeterAboutZeus02", "HermesAboutZeus01", "ChaosAboutZeus01", "ZeusWithDemeter01" }, Count = 5 },
 				{ Cue = "/VO/Zeus_0218",
 					StartSound = "/Leftovers/World Sounds/MapZoomInShort", UseEventEndSound = true,

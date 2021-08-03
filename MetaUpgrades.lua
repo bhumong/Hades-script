@@ -818,6 +818,7 @@ function CreateMetaUpgradeEntry( args )
 		LangRuScaleModifier = 0.68,
 		LangPlScaleModifier = 0.7,
 		LangCnScaleModifier = 0.9,
+		LangKoScaleModifier = 0.825,
 		LangJaScaleModifier = 0.825,
 		Justification = "Left" })
 

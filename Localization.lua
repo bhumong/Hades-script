@@ -29,6 +29,7 @@ LocalizationData =
 			"de",
 			"ru",
 			"ko",
+			"fr",
 			"ja",
 		},
 		ChapterName =
@@ -393,6 +394,7 @@ LocalizationData =
 			LangDeScaleModifier = 0.85,
 			LangEsScaleModifier = 0.95,
 			LangJaScaleModifier = 0.90,
+			LangKoScaleModifier = 0.85,
 		},
 		QuestLogRewardText =
 		{
@@ -401,6 +403,7 @@ LocalizationData =
 			LangItScaleModifier = 0.87,
 			LangPtBrScaleModifier = 0.85,
 			LangJaScaleModifier = 0.90,
+			LangKoScaleModifier = 0.85,
 		}
 	},
 	-- Wretched Broker
